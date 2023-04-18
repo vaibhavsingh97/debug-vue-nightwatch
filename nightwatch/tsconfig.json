@@ -1,0 +1,22 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": false,
+    "preserveValueImports": false,
+    "importsNotUsedAsValues": "preserve",
+    "lib": [
+      "dom"
+    ],
+    "composite": true,
+    "traceResolution": true,
+  },
+  // "files": [
+  //   "./custom-types.d.ts"
+  // ]
+}
